@@ -9,3 +9,7 @@ postsAlice = ["Wow! I'm finally in DC!", "Great music @ Kennedy Center!"]
 postsBob = ["Great time at python class!"]
 imgsAlice = ["https://bit.ly/2EhtSpO", "https://bit.ly/34p23GB"]
 imgsBob = ["https://bit.ly/31kUEWR"]
+postsBob.append(["I just learned about lists!"])
+oldPostsAlice = ["Got my ticket!", "On my way to DC!"]
+postsAlice.insert(0, oldPostsAlice)
+print(postsAlice[-2:])
